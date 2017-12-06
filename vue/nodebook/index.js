@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import store from './store';
+import Nodebook from './Nodebook.vue';
+import Kernel from './apps/Kernel.vue';
 
 
 Vue.use(VueRouter);
