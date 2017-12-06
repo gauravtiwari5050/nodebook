@@ -7,6 +7,7 @@
   "author": "Gaurav Tiwari <gauravtiwari5050@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "electron index.js",
     "fbuild-prod": "webpack --config webpack/webpack.client.config.js",
     "fbuild": "webpack --config webpack/webpack.client.config.js  --hide-modules --progress --watch"
   },
