@@ -6,6 +6,10 @@
   "repository": "https://github.com/gauravtiwari5050/nodebook",
   "author": "Gaurav Tiwari <gauravtiwari5050@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "fbuild-prod": "webpack --config webpack/webpack.client.config.js",
+    "fbuild": "webpack --config webpack/webpack.client.config.js  --hide-modules --progress --watch"
+  },
   "dependencies": {
     "axios": "^0.17.1",
     "lodash": "^4.17.4",
@@ -25,6 +29,7 @@
     "express": "^4.15.4",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.5",
+    "html-webpack-plugin": "^2.30.1",
     "sw-precache-webpack-plugin": "^0.11.4",
     "url-loader": "^0.6.2",
     "vue-loader": "^13.5.0",
